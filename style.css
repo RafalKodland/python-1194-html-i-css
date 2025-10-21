@@ -1,0 +1,25 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p, h2 {
+    color: blue;
+    background-color: azure;
+    text-align: center;
+}
+
+h1 {
+    border: 5px solid greenyellow;
+    border-radius: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10px;
+    width: fit-content;
+}
+
+div {
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
