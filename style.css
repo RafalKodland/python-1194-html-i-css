@@ -4,8 +4,16 @@
         border-radius: 50px;
     }
 
+    25% {
+        border-radius: 0px;
+    }
+
     50% {
         color: red;
+        border-radius: 50px;
+    }
+
+    75% {
         border-radius: 0px;
     }
 
@@ -24,6 +32,13 @@ p, h2 {
     color: blue;
     background-color: azure;
     text-align: center;
+    transition: all 1s;
+}
+
+h2:hover {
+    color: red;
+    font-size: 30px;
+    transition: all 1s;
 }
 
 h1 {
@@ -33,6 +48,9 @@ h1 {
     padding-right: 10%;
     padding-bottom: 10px;
     width: fit-content;
+}
+
+h1:hover {
     animation: color-change 2s infinite;
 }
 
