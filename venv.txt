@@ -1,0 +1,7 @@
+0. Zainstalowanie programu do zarządzania wirtualnymi środowiskami. Komenda w terminalu: pip install pipenv
+(krok 0, wykonujemy tylko raz na danym komputerze)
+
+1. Stworzenie środowiska wirtualnego. Komenda w terminalu: pipenv shell
+2. Przełączenie interpretera. W tym celu w pasku wyszukiwania (góra visual studio code) wpisujemy: >wybierz interpretera
+   Następnie wybieramy stworzone środowisko (czyli te, które posiada nawias z nazwą folderu, w którym wirtualne środowisko się znajduje)
+3. Instalowanie bibilotek/modułów: tak samo jak przy pip, tylko zasmiast pip, piszemy pipenv
