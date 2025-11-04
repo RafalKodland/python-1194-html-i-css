@@ -26,6 +26,6 @@ Elon Musk opowiada się także za regulacją sieci społecznościowych i ochron�
 
     random_fact = choice(facts)
     
-    return f"<p>Losowy fakt: {random_fact}  <a href='/'>Powrót</a></p>"
+    return render_template("facts.html", fact = random_fact)
 
 app.run(debug=True)
