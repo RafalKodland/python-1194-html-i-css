@@ -1,11 +1,11 @@
-from flask import Flask
+from flask import Flask, render_template
 from random import choice
 
 app = Flask(__name__)
 
 @app.route("/")
 def main_site():
-    return "<p>Witaj na mojej stronie! Podstrona z losowymi faktami: <a href='/losowy_fakt'>link</a></p>"
+    return render_template("index.html")
 
 @app.route("/losowy_fakt")
 def rand_fact():
@@ -26,7 +26,6 @@ Elon Musk opowiada się także za regulacją sieci społecznościowych i ochron�
 
     random_fact = choice(facts)
     
-
     return f"<p>Losowy fakt: {random_fact}  <a href='/'>Powrót</a></p>"
 
 app.run(debug=True)
